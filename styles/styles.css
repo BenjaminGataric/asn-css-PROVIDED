@@ -35,13 +35,13 @@ h1, h2 {
 
 /***  INSTRUCTIONS:
 
-- 1st level headings will be 32px.
-- 2nd level headings will be 24px.
-- 3rd level headings will be 18px and bold.
-- All footer text will be 12px.
-- Anchors will not be underlined until we hover over them.
-- Anchors in the header will be black.
-- There will be 15px of space under 2nd level headings and paragraphs.
+- 1st level headings will be 32px. +
+- 2nd level headings will be 24px. +
+- 3rd level headings will be 18px and bold. +
+- All footer text will be 12px. + 
+- Anchors will not be underlined until we hover over them. +
+- Anchors in the header will be black. +
+- There will be 15px of space under 2nd level headings and paragraphs. +
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
@@ -58,33 +58,49 @@ h3 {
 footer {
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
+a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+}
+a:hover {
+    text-decoration: underline solid;
+}
+header {
+    line-height: 50px;
+}
+header a {
+    color: black;
+    font-size: 18px;
+}
+p {
+    line-height: 15px;
+    margin: 15px 0;
+}
 /****************** site-wide styling ******************/
 
 /***  INSTRUCTIONS:
 
-- The header and footer will be #c74365.
-- There will be 30px of space between the header and the main, and between the main and the footer.
-- Anchors in the header will be 18px.
-- The logo in the header will be 30px tall and wide, with 10px of space on all sides.
-- The top-level heading and the links in the header will have a line-height of 50px to center them within the header.
+- The header and footer will be #c74365. +
+- There will be 30px of space between the header and the main, and between the main and the footer. +
+- Anchors in the header will be 18px. +
+- The logo in the header will be 30px tall and wide, with 10px of space on all sides. +
+- The top-level heading and the links in the header will have a line-height of 50px to center them within the header. +
 - There will be enough space between the page heading and the links so the last link is flush with the edge of the page. (HINT: Guess-and-check method can be useful here!)
-- There will be 15px of space between each link.
+- There will be 15px of space between each link. +
 - The text in the footer will be centered, with 15px of space between the content and the edge of the footer.
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
+header, footer {
+    background-color: #c74365;
+    margin: 30px;
+}
+img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
 
 
