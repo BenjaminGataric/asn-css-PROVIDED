@@ -43,7 +43,7 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 h1 {
-    font-size: clamp(32px, 10%, 300px);
+    font-size: 32px;
 }
 h2 {
     font-size: 24px;
@@ -165,7 +165,6 @@ h2 {
 }
 .light-background {
     height: 140px;
-    margin-top: 30px;
 }
 .labels {
     text-align: right;
@@ -190,9 +189,15 @@ label {
     font-weight: bold;
     text-align: center;
 }
+.timesheet-content p {
+    margin-bottom: 50px;
+}
 input {
     width: 100px;
     margin-left: 15px;
+}
+button, .light-background {
+    margin-top: 30px;
 }
 button {
     height: 21px;
@@ -200,6 +205,5 @@ button {
     border: 1px solid grey;
     border-radius: 4px;
     background-color: white;
-    margin-top: 30px;
     margin-left: 515px;
 }
