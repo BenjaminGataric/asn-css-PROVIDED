@@ -94,7 +94,6 @@ header, footer {
     margin: 30px;
 }
 footer {
-    margin: 15px;
     padding: 15px;
 }
 
@@ -148,24 +147,25 @@ h2 {
 }
 .wide-column {
     width: 420px;
-    h2 {
-        bottom: 10px;
-        margin-right: 15px;
-    }
+}
+.wide-column h2 {
+    margin-bottom: 10px;
+    margin-right: 15px;
 }
 .narrow-column {
     width: 180px;
-    h2 {
-        top: 15px;
-        left: 15px;
-        margin-bottom: 15px;
-    }
+}
+.narrow-column h2 {
+    top: 15px;
+    left: 15px;
+    margin-bottom: 15px;
 }
 .wide-column img {
     width: 120px;
 }
 .light-background {
     height: 140px;
+    margin-top: 30px;
 }
 .labels {
     text-align: right;
