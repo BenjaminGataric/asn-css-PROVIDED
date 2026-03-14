@@ -60,8 +60,6 @@ footer {
 }
 a {
     text-decoration: none;
-    padding: 15px;
-    margin: 15px;
 }
 a:hover {
     text-decoration: underline solid;
@@ -96,28 +94,33 @@ header, footer {
     background-color: #c74365;
     margin: 30px;
 }
-img {
+header img {
     height: 30px;
     width: 30px;
     margin: 10px;
 }
-
-
-
-
-
-
+ul {
+    gap: 15px;
+}
 
 /****************** home page styling ******************/
 
 /***  INSTRUCTIONS:
-- Everything in the "italics" class will be italicized.
-- Each article will have a background colour of lightgray, space between content and border of 15px, and 15px of space around the element on each side.
+- Everything in the "italics" class will be italicized. +
+- Each article will have a background colour of lightgray, space between content and border of 15px, and 15px of space around the element on each side. +
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
+article, .light-background {
+    background-color: lightgrey;
+}
+article {
+    padding: 15px;
+    margin: 15px;
+}
+.italics {
+    font-style: italic;
+}
 
 
 
@@ -127,16 +130,46 @@ img {
 /****************** profile page styling ******************/
 
 /***  INSTRUCTIONS:
-- The wide column will be 420px wide.
-- The narrow column will be 180px wide.
-- The profile picture will be 120px wide.
-- The labels div will be bold, and 70px wide. Text will be aligned to the right.
-- There will be 15px of space on the right side of the labels div.
-- The light-background class will have a background colour of lightgray, a height of 140px, and will be shifted down by 30px.
-- The 2nd level heading within the light-backgroun will be shifted down 10px, and have 15px of space on its left and below.
+- The wide column will be 420px wide. +
+- The narrow column will be 180px wide. +
+- The profile picture will be 120px wide. +
+- The labels div will be bold, and 70px wide. Text will be aligned to the right. +
+- There will be 15px of space on the right side of the labels div. +
+- The light-background class will have a background colour of lightgray, a height of 140px, and will be shifted down by 30px. +
+- The 2nd level heading within the light-backgroun will be shifted down 10px, and have 15px of space on its left and below. +
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
+.wide-column {
+    width: 420px;
+    h2 {
+        position: relative;
+        bottom: 10px;
+    }
+}
+.narrow-column {
+    width: 180px;
+    h2 {
+        position: relative;
+        top: 15px;
+        left: 15px;
+        margin-bottom: 15px;
+    }
+}
+.wide-column img {
+    width: 120px;
+}
+.light-background {
+    height: 140px;
+    position: relative;
+    top: 30px;
+}
+.labels {
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+}
 
 
 
@@ -158,6 +191,7 @@ img {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
+
 
 
 
