@@ -150,6 +150,8 @@ h2 {
 }
 .wide-column h2 {
     margin-bottom: 10px;
+}
+.wide-column h2, input {
     margin-right: 15px;
 }
 .narrow-column {
@@ -193,17 +195,19 @@ label {
     margin-bottom: 50px;
 }
 input {
-    width: 100px;
     margin-left: 15px;
+
+}
+input, button {
+    width: 100px;
 }
 button, .light-background {
     margin-top: 30px;
 }
 button {
     height: 21px;
-    width: 100px;
     border: 1px solid grey;
     border-radius: 4px;
     background-color: white;
-    margin-left: 515px;
+    margin-left: 575px;
 }
