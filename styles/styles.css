@@ -15,6 +15,7 @@ body {
 }
 
 .fixed-width {
+    display: flex;
     width: 600px;
     margin: 0 auto; /* centers content on the screen */
 }
@@ -24,7 +25,9 @@ body {
 }
 
 .flex {
-    display: flex; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /****************** typography ******************/
@@ -46,7 +49,7 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 h1 {
-    font-size: 32px;
+    font-size: clamp(32px, 10%, 300px);
 }
 h2 {
     font-size: 24px;
@@ -102,6 +105,12 @@ header img {
 ul {
     gap: 15px;
 }
+header {
+    h1 {
+        margin-right: auto;
+    }
+}
+
 
 /****************** home page styling ******************/
 
@@ -179,19 +188,36 @@ article {
 /****************** form styling ******************/
 
 /***  INSTRUCTIONS:
-- The form will have 45px of space above and below.
-- Labels will have a display property of block, be bold, and centered.
-- Input fields will be 100px wide.
-- There will be 15px of space between each day.
-- The button will be 21px tall and the same width as the input boxes (HINT: use the element inspector in your browser).
-- There will be 30px of space above the button, and as much space as needed on the left so that the edge of the button is flush with the fixed width container. (HINT: remember the width of the fixed-width container.)
-- The button will have a 1px solid grey border and have a white background, which will change to grey when we hover over it.
-- The border will have a border-radius set to 4px.
-- The button will use the same font as the body.
+- The form will have 45px of space above and below. +
+- Labels will have a display property of block, be bold, and centered. +
+- Input fields will be 100px wide. +
+- There will be 15px of space between each day. +
+- The button will be 21px tall and the same width as the input boxes (HINT: use the element inspector in your browser). +
+- There will be 30px of space above the button, and as much space as needed on the left so that the edge of the button is flush with the fixed width container. (HINT: remember the width of the fixed-width container.) 
+- The button will have a 1px solid grey border and have a white background, which will change to grey when we hover over it. +
+- The border will have a border-radius set to 4px. +
+- The button will use the same font as the body. +
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
+label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+input {
+    width: 100px;
+    margin-left: 15px;
+}
+button {
+    height: 21px;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 515px;
+}
 
 
 
